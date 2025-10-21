@@ -1,13 +1,12 @@
-# Byte-compiled / optimized / DLL files
+# Python
 __pycache__/
+*.session
 
 # Virtual environment
-venv/
-ENV/
-env/
+.venv/
 
 # VSCode
 .vscode/
 
 # Api Keys
-.env
+*.env
