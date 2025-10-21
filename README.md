@@ -9,7 +9,7 @@ The script creates the chat/group automatically.
 Work with private chat/group.
 
 ### How it Works
-script get messages text/media
+Script get messages text/media
 from source chat/group and download to temp dir
 upload messages text/media to your chat/group
 
@@ -20,22 +20,24 @@ pip install -r requirements.txt
 ```
 
 ### Get API Keys
-go to https://my.telegram.org/apps and create app
-get App api_id and App api_hash
+Go to https://my.telegram.org/apps and create app
+Get App api_id and App api_hash
 
 ### Enter API Keys
-create file ".env"
-in file enter api keys ".env":
+Create file ".env"
+In file enter api keys ".env":
+```.env
 API_ID=123456789
 API_HASH=43fh5gf4hgf53h5hjf45hf43hf5g
+```
 
 ### Settings
-go to file "config.py" and enter your data
-LIST_TOPIC take list(enter name topics) or None(get all topics)
-TEMP_DIR_PATH take str(enter path to dir) or None(create dir in .)
+Go to file "config.py" and enter your data
+Constant LIST_TOPIC take list(enter name topics) or None(get all topics)
+Constant TEMP_DIR_PATH take str(enter path to dir) or None(create dir in .)
 
 ### Troubleshooting
-if you have problem with install TgCrypto:
-(This library is optional; it only speeds up performance)
-install Build Tools (https://visualstudio.microsoft.com/visual-cpp-build-tools/)
-during installation, select the "C++ build tools" option
+If you have problem with install TgCrypto:
+<!-- This library is optional; it only speeds up performance -->
+Install Build Tools (https://visualstudio.microsoft.com/visual-cpp-build-tools/)
+During installation, select the "C++ build tools" option
